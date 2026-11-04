@@ -1,0 +1,44 @@
+{
+  "coex": {
+    "hash": "sha256-gpQskxNoCJ2yXS63l0k3emXEAQFdUcynxW/uyJxn3r4=",
+    "repository": "espressif/esp-coex-lib",
+    "revision": "ddc56fa524a38df3098d2f36475fbe3eefe9b4f4",
+    "storePath": "/nix/store/lhdnvd9wmal52w8nhzi7rygikq4vdkv8-ddc56fa524a38df3098d2f36475fbe3eefe9b4f4.tar.gz"
+  },
+  "lwip": {
+    "hash": "sha256-8aGRZoZOsFZAeVhaDhvql6EekKfrcqm+3+pXz5gZTe8=",
+    "repository": "espressif/esp-lwip",
+    "revision": "c6f2f878e7b0f86033214b85547d579be43351e3",
+    "storePath": "/nix/store/20qrs48lckqx48v25j9mqmb0bd9d85wk-c6f2f878e7b0f86033214b85547d579be43351e3.tar.gz"
+  },
+  "mbedtls": {
+    "hash": "sha256-WiX/g3QoQGF0VETAUEzcv5qYh0/5m51lLnUILNhuE14=",
+    "repository": "espressif/mbedtls",
+    "revision": "a2b32072ea898afc1ed5b6caf6931e36028c91d6",
+    "storePath": "/nix/store/7hx4rk8bynpynxxqprcs65dqjl4l0d5k-a2b32072ea898afc1ed5b6caf6931e36028c91d6.tar.gz"
+  },
+  "micro-ecc": {
+    "hash": "sha256-QLqO/UP/2Ndx6YfMQ3LLlLrdjXhMmzxpjDR2KXDml70=",
+    "repository": "kmackay/micro-ecc",
+    "revision": "24c60e243580c7868f4334a1ba3123481fe1aa48",
+    "storePath": "/nix/store/nykc7r79slhaqqkr2magyidy5diiqyjq-24c60e243580c7868f4334a1ba3123481fe1aa48.tar.gz"
+  },
+  "phy": {
+    "hash": "sha256-Eiu1zv5JTIo+FLcddpNxEyV0osvAI+s0FE2ykds5t7I=",
+    "repository": "espressif/esp-phy-lib",
+    "revision": "5695f4f38108658bc4a33e4712c1ebcb34911434",
+    "storePath": "/nix/store/cajvkawg0ri3yvwf8zsk3i8mk5800wq5-5695f4f38108658bc4a33e4712c1ebcb34911434.tar.gz"
+  },
+  "tlsf": {
+    "hash": "sha256-QQWCY6WXpeI/sc36aP+L8lcncgf+qlpFfFfBrkOIiIE=",
+    "repository": "espressif/tlsf",
+    "revision": "2867f6883a12920b1969ff9624c0ab0e4185c2ce",
+    "storePath": "/nix/store/rd9y7hm40ciirpj75kbmgygggalgarl8-2867f6883a12920b1969ff9624c0ab0e4185c2ce.tar.gz"
+  },
+  "wifi": {
+    "hash": "sha256-kzztDg/EMbZrPmdPGdvWMiQFfNC2Dn7BJrnS1AKxkhk=",
+    "repository": "espressif/esp32-wifi-lib",
+    "revision": "7cd4d7b2b4acc38aead43b029ac9409c3eba9c54",
+    "storePath": "/nix/store/f5mq7qg46n862zx96h3nxh5wi0xwnv32-7cd4d7b2b4acc38aead43b029ac9409c3eba9c54.tar.gz"
+  }
+}

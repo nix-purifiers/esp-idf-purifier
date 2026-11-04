@@ -1,0 +1,124 @@
+{
+  "linux-amd64": [
+    {
+      "exports": [
+        "tools/riscv32-esp-elf-gdb/17.1_20260402/riscv32-esp-elf-gdb/bin"
+      ],
+      "name": "riscv32-esp-elf-gdb",
+      "sha256": "35f3db841338cb4f9bc60d757bc3e87dfa50ff50607bcbc3867c5b1ac28dd342",
+      "size": 43045928,
+      "url": "https://github.com/espressif/binutils-gdb/releases/download/esp-gdb-v17.1_20260402/riscv32-esp-elf-gdb-17.1_20260402-x86_64-linux-gnu.tar.gz",
+      "vars": {},
+      "version": "17.1_20260402"
+    },
+    {
+      "exports": [
+        "tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin"
+      ],
+      "name": "riscv32-esp-elf",
+      "sha256": "ace5aae6afe98f754947be043d40173e2e22ace57754b11a394b7238eefa01cf",
+      "size": 393927372,
+      "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-15.2.0_20251204/riscv32-esp-elf-15.2.0_20251204-x86_64-linux-gnu.tar.xz",
+      "vars": {},
+      "version": "esp-15.2.0_20251204"
+    },
+    {
+      "exports": [
+        "tools/openocd-esp32/v0.12.0-esp32-20260703/openocd-esp32/bin"
+      ],
+      "name": "openocd-esp32",
+      "sha256": "4b71d1b4d8e4025029466e780161262a04137348b68e965c15250dbeebef03ce",
+      "size": 2700256,
+      "url": "https://github.com/espressif/openocd-esp32/releases/download/v0.12.0-esp32-20260703/openocd-esp32-linux-amd64-0.12.0-esp32-20260703.tar.gz",
+      "vars": {
+        "OPENOCD_SCRIPTS": "tools/openocd-esp32/v0.12.0-esp32-20260703/openocd-esp32/share/openocd/scripts"
+      },
+      "version": "v0.12.0-esp32-20260703"
+    },
+    {
+      "exports": [
+        "tools/esp-rom-elfs/20241011/"
+      ],
+      "name": "esp-rom-elfs",
+      "sha256": "921f000164a421c7628fbfee55b173384aafaa51883adc65cd27bf9b0af9e9a9",
+      "size": 3540038,
+      "url": "https://github.com/espressif/esp-rom-elfs/releases/download/20241011/esp-rom-elfs-20241011.tar.gz",
+      "vars": {
+        "ESP_ROM_ELF_DIR": "tools/esp-rom-elfs/20241011/"
+      },
+      "version": "20241011"
+    },
+    {
+      "exports": [
+        "tools/esp-clangd/esp-21.1.3_20260408/esp-clangd/bin"
+      ],
+      "name": "esp-clangd",
+      "sha256": "7133e67db271ca96b30ec9f5c34c903eaf5fe10120cfe44f85eb88db7ddbe230",
+      "size": 17077740,
+      "url": "https://github.com/espressif/llvm-project/releases/download/esp-21.1.3_20260408/clangd-esp-21.1.3_20260408-x86_64-linux-gnu.tar.xz",
+      "vars": {},
+      "version": "esp-21.1.3_20260408"
+    }
+  ],
+  "linux-arm64": [
+    {
+      "exports": [
+        "tools/riscv32-esp-elf-gdb/17.1_20260402/riscv32-esp-elf-gdb/bin"
+      ],
+      "name": "riscv32-esp-elf-gdb",
+      "sha256": "f185d924497750f254290a32c48163c08e3b2a29eb248d739d90990ebee17f44",
+      "size": 42035040,
+      "url": "https://github.com/espressif/binutils-gdb/releases/download/esp-gdb-v17.1_20260402/riscv32-esp-elf-gdb-17.1_20260402-aarch64-linux-gnu.tar.gz",
+      "vars": {},
+      "version": "17.1_20260402"
+    },
+    {
+      "exports": [
+        "tools/riscv32-esp-elf/esp-15.2.0_20251204/riscv32-esp-elf/bin"
+      ],
+      "name": "riscv32-esp-elf",
+      "sha256": "90cccb3ef035f016836dd7c292528b27333a716d42b9361a68005d178c0f70bf",
+      "size": 382287852,
+      "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-15.2.0_20251204/riscv32-esp-elf-15.2.0_20251204-aarch64-linux-gnu.tar.xz",
+      "vars": {},
+      "version": "esp-15.2.0_20251204"
+    },
+    {
+      "exports": [
+        "tools/openocd-esp32/v0.12.0-esp32-20260703/openocd-esp32/bin"
+      ],
+      "name": "openocd-esp32",
+      "sha256": "3ce059a26a543e96b19bef15a29b850aadaff1d4e2dc291e8c1ab45e331a5f1c",
+      "size": 2641141,
+      "url": "https://github.com/espressif/openocd-esp32/releases/download/v0.12.0-esp32-20260703/openocd-esp32-linux-arm64-0.12.0-esp32-20260703.tar.gz",
+      "vars": {
+        "OPENOCD_SCRIPTS": "tools/openocd-esp32/v0.12.0-esp32-20260703/openocd-esp32/share/openocd/scripts"
+      },
+      "version": "v0.12.0-esp32-20260703"
+    },
+    {
+      "exports": [
+        "tools/esp-rom-elfs/20241011/"
+      ],
+      "name": "esp-rom-elfs",
+      "sha256": "921f000164a421c7628fbfee55b173384aafaa51883adc65cd27bf9b0af9e9a9",
+      "size": 3540038,
+      "url": "https://github.com/espressif/esp-rom-elfs/releases/download/20241011/esp-rom-elfs-20241011.tar.gz",
+      "vars": {
+        "ESP_ROM_ELF_DIR": "tools/esp-rom-elfs/20241011/"
+      },
+      "version": "20241011"
+    },
+    {
+      "exports": [
+        "tools/esp-clangd/esp-21.1.3_20260408/esp-clangd/bin"
+      ],
+      "name": "esp-clangd",
+      "sha256": "468e6fa03def6bcf0c0469d25b8d8b86212e5a94716d0b3db149f21b77791c54",
+      "size": 14706612,
+      "url": "https://github.com/espressif/llvm-project/releases/download/esp-21.1.3_20260408/clangd-esp-21.1.3_20260408-aarch64-linux-gnu.tar.xz",
+      "vars": {},
+      "version": "esp-21.1.3_20260408"
+    }
+  ]
+}

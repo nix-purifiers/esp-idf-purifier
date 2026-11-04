@@ -1,0 +1,8 @@
+result*
+*.log
+build/
+managed_components/
+.esp-idf-purifier/
+__pycache__/
+sdkconfig
+sdkconfig.old

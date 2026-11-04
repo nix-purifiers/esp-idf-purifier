@@ -1,0 +1,101 @@
+{
+  "esp-coredump": {
+    "dependencies": [
+      "construct",
+      "pygdbmi",
+      "esptool",
+      "esp-pylib",
+      "click",
+      "rich-click",
+      "rich"
+    ],
+    "sha256": "a2280db78909d5fbb505350813641ccc6187b76e42d5da19809ef7fc13106ac2",
+    "url": "https://files.pythonhosted.org/packages/b0/5c/423fe65577336e4f913f674580e9d0a06e53fc799ac9d72242a7fd4e2002/esp_coredump-1.18.1.tar.gz",
+    "version": "1.18.1"
+  },
+  "esp-idf-diag": {
+    "dependencies": [
+      "pyyaml",
+      "rich"
+    ],
+    "sha256": "83affa9922e7ab9e9e11683f3507356f590385f735a43532442d2d9301a4e8a0",
+    "url": "https://files.pythonhosted.org/packages/5d/e8/ebb81a1a297dfc2c1d94dce2a412b1e956049baed8ddcaf0d61cc26a2e7a/esp_idf_diag-0.2.0.tar.gz",
+    "version": "0.2.0"
+  },
+  "esp-idf-kconfig": {
+    "dependencies": [
+      "esp-pylib",
+      "pyparsing",
+      "textual"
+    ],
+    "sha256": "3dddcfd2ce4be602b1231d95a8d2f7985dd0b9a62002dcc6809164c94a6ebbc5",
+    "url": "https://files.pythonhosted.org/packages/f9/d8/14d43b9f2fe389d8ed9d7279e776779d30a1d00dc5c70b546b343a65f734/esp_idf_kconfig-3.14.0.tar.gz",
+    "version": "3.14.0"
+  },
+  "esp-idf-monitor": {
+    "dependencies": [
+      "pyserial",
+      "esp-coredump",
+      "esp-idf-panic-decoder",
+      "pyelftools",
+      "esp-pylib",
+      "rich",
+      "rich-click"
+    ],
+    "sha256": "7adb6927afdaaa8546fb4b8eed7a6d20cca9b0aa80cfa5839d80171b8ed790f5",
+    "url": "https://files.pythonhosted.org/packages/07/f6/6f97755905260363abfc07c2fa9139f690c078d2e8b2d23255ade7898c82/esp_idf_monitor-1.10.0.tar.gz",
+    "version": "1.10.0"
+  },
+  "esp-idf-nvs-partition-gen": {
+    "dependencies": [
+      "cryptography",
+      "esp-pylib"
+    ],
+    "sha256": "8394c0e5259f27f01104279371960e52e5bea708c5c0baae3b7dc5e521768d5d",
+    "url": "https://files.pythonhosted.org/packages/84/c9/50173df772d5a0fffda5398247af1f8441b4378bbe45723fbccffbb0dd94/esp_idf_nvs_partition_gen-0.3.0.tar.gz",
+    "version": "0.3.0"
+  },
+  "esp-idf-panic-decoder": {
+    "dependencies": [
+      "pyelftools",
+      "pyparsing"
+    ],
+    "sha256": "7b093f7a1ba5fdfd77e42a960487b5a433f60dcdabf38cc98176f291fc3a88fb",
+    "url": "https://files.pythonhosted.org/packages/da/f1/e4d6170a51e15afd27660992fbd2a4728cf401750ebb388b1ce035d95025/esp_idf_panic_decoder-1.5.0.tar.gz",
+    "version": "1.5.0"
+  },
+  "esp-idf-sbom": {
+    "dependencies": [
+      "pyyaml",
+      "schema",
+      "license-expression",
+      "rich",
+      "pyparsing",
+      "esp-pylib"
+    ],
+    "sha256": "a21ef024856563a2d186a4869d1284443bf5d085fd1b46164f12745acf887409",
+    "url": "https://files.pythonhosted.org/packages/16/30/574d62a53ad7c8b3eb8d31152e5923675b7328a8918732397cf87a4b8d74/esp_idf_sbom-1.5.0.tar.gz",
+    "version": "1.5.0"
+  },
+  "idf-drivers-gdb": {
+    "dependencies": [],
+    "sha256": "dc972dfb9b106b0b883b41bbf8c3ed9cbee8a97367c75eeeab772c573c8455c0",
+    "url": "https://files.pythonhosted.org/packages/91/8f/a3010dad3fe0836a4187081a1481fbcc1619614cb949a00afe738f7c629c/idf_drivers_gdb-0.1.1.tar.gz",
+    "version": "0.1.1"
+  },
+  "pyclang": {
+    "dependencies": [
+      "esp-pylib",
+      "rich"
+    ],
+    "sha256": "b3d48787bb67489164d06ef0343328d651831b45f0eb67e0fec9221efa26a5f5",
+    "url": "https://files.pythonhosted.org/packages/ff/ec/8b6c6bcf9d518225c682116c75331cab0c2cca00dcb0793ffd21bba7300d/pyclang-0.7.0.tar.gz",
+    "version": "0.7.0"
+  },
+  "tree-sitter-c": {
+    "dependencies": [],
+    "sha256": "1628584df0299b5a340aa63f8e67b6c97c91517f52fa7e7a4c557e40adb330a9",
+    "url": "https://files.pythonhosted.org/packages/a6/c9/3834f3d9278251aea7312274971bc4c45b17aec2490fd4b884d93bd7019a/tree_sitter_c-0.24.2.tar.gz",
+    "version": "0.24.2"
+  }
+}
