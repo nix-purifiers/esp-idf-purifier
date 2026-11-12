@@ -47,5 +47,5 @@
     "target": "esp32c3"
   },
   "schema": 1,
-  "sdk": "9b1e59c7568bc06a117b416e166168890a69d185656aa1b18b1ca75533c1f53d"
+  "sdk": "8ad9ce9477dd0636dc865383e71878eaa1dbe0bcb0e9b12b689deb6510e8b597"
 }
