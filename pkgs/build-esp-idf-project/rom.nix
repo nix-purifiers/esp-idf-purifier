@@ -1,6 +1,6 @@
 { pkgs }:
 let
-  tools = builtins.fromJSON (builtins.readFile ../native/tool-selection.json);
+  tools = builtins.fromJSON (builtins.readFile ../../native/tool-selection.json);
   selected = builtins.head (
     builtins.filter (tool: tool.name == "esp-rom-elfs")
       tools.${if pkgs.stdenv.hostPlatform.system == "aarch64-linux" then "linux-arm64" else "linux-amd64"}

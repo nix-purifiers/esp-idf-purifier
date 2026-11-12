@@ -45,5 +45,5 @@ runCommand "esp-idf-native-mirror" { } ''
   '') (builtins.attrNames indices)}
   export IDF_COMPONENT_CACHE_PATH="$TMPDIR/cache" XDG_CACHE_HOME="$TMPDIR/cache"
   export ESP_IDF_PURIFIER_MIRROR="file://$out/mirror"
-  ${python}/bin/python ${../native/components.py} ${context} "$out/components"
+  ${python}/bin/python ${../../native/components.py} ${context} "$out/components"
 ''

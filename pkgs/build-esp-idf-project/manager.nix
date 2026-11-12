@@ -8,7 +8,7 @@ python.buildPythonApplication {
   pyproject = true;
   src = pkgs.fetchzip {
     url = "https://github.com/espressif/idf-component-manager/archive/621f2530f29021a62cbd54a6d54efa7d717f6334.tar.gz";
-    hash = (builtins.fromJSON (builtins.readFile ../native/manager-source-pin.json)).hash;
+    hash = (builtins.fromJSON (builtins.readFile ../../native/manager-source-pin.json)).hash;
   };
   build-system = [ python.setuptools ];
   dependencies = with python; [
@@ -28,7 +28,7 @@ python.buildPythonApplication {
     pathvalidate
     truststore
   ];
-  postPatch = "${pkgs.python3}/bin/python3 ${../native/patch-manager.py} .";
+  postPatch = "${pkgs.python3}/bin/python3 ${../../native/patch-manager.py} .";
   doCheck = false;
   pythonImportsCheck = [
     "idf_component_manager"
