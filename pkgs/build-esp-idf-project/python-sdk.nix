@@ -1,8 +1,8 @@
 { pkgs }:
 let
   ps = pkgs.python3Packages;
-  sources = builtins.fromJSON (builtins.readFile ../native/sdk-sources.json);
-  installed = builtins.fromJSON (builtins.readFile ../native/nix-python-packages.json);
+  sources = builtins.fromJSON (builtins.readFile ../../native/sdk-sources.json);
+  installed = builtins.fromJSON (builtins.readFile ../../native/nix-python-packages.json);
   aliases = {
     "boolean.py" = ps.boolean-py;
     "ruamel.yaml" = ps.ruamel-yaml;

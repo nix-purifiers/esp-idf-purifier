@@ -62,7 +62,7 @@ let
         mkdir -p "$HOME"
         cp -r ${projectSource} project
         chmod -R u+w project
-        ${python}/bin/python ${../native/build.py} "$PWD/project" "$out" ${python}/bin/python
+        ${python}/bin/python ${../../native/build.py} "$PWD/project" "$out" ${python}/bin/python
         ${lib.optionalString doCheck checkCommand}
       '';
   release =

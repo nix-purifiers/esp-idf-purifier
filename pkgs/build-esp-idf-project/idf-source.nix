@@ -1,7 +1,7 @@
 { pkgs }:
 let
-  basePin = builtins.fromJSON (builtins.readFile ../native/idf-source-pin.json);
-  pins = builtins.fromJSON (builtins.readFile ../native/sdk-git-pins.json);
+  basePin = builtins.fromJSON (builtins.readFile ../../native/idf-source-pin.json);
+  pins = builtins.fromJSON (builtins.readFile ../../native/sdk-git-pins.json);
   fetch =
     pin:
     pkgs.fetchzip {

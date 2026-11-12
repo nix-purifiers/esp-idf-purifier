@@ -18,7 +18,7 @@
       ];
       forAll = nixpkgs.lib.genAttrs systems;
       overlay = final: prev: {
-        esp-idf-purifier = import ./nix/scope.nix {
+        esp-idf-purifier = import ./pkgs/default.nix {
           pkgs = final;
           nixpkgsSrc = nixpkgs;
           purifierSrc = purifier;
@@ -52,7 +52,7 @@
           program = "${self.packages.${system}.default}/bin/esp-idf-purifier";
         };
       });
-      lib.esp-idf-purifier.readLock = import ./nix/read-lock.nix { lib = nixpkgs.lib; };
+      lib.esp-idf-purifier = (nixpkgs.lib.extend (import ./lib-overlays/default)).esp-idf-purifier;
       checks = forAll (
         system:
         let

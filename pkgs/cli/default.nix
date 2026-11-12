@@ -18,18 +18,19 @@
 }:
 let
   integration = lib.fileset.toSource {
-    root = ../.;
+    root = ../..;
     fileset = lib.fileset.unions [
-      ../esp_idf_purifier
-      ../native
-      ./.
+      ../../esp_idf_purifier
+      ../../native
+      ../.
+      ../../lib-overlays
     ];
   };
   realize = writeText "esp-idf-purifier-realize.nix" ''
     { lockPath, projectPath ? "", target ? "environment" }:
     let
       pkgs = import (builtins.storePath "${nixpkgsSrc}") {};
-      scope = import ${integration}/nix/scope.nix {
+      scope = import ${integration}/pkgs/default.nix {
         inherit pkgs;
         nixpkgsSrc = builtins.storePath "${nixpkgsSrc}";
         purifierSrc = builtins.storePath "${purifierSrc}";
